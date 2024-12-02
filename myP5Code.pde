@@ -11,9 +11,9 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(50,50,100,80);
-  
-
+  ellipse(50,50,110,100);
+  ellipse(51,211,130,100);
+  ellipse(49,127,120,100);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
@@ -27,6 +27,7 @@ var fillB = 255;
 void mousePressed(){
   fill(fillR,fillG,fillB);
   strokeWeight(1);
+  ellipse(mouseX, mouseY, 12, 12);
   ellipse(mouseX, mouseY, 12, 12);
   var myText = "x: " + mouseX + "\ny: " + mouseY;
   text(myText, mouseX + 15, mouseY);
